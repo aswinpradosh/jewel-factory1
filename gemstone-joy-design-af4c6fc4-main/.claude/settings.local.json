@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const fs=require\\('fs'\\);const b=fs.readFileSync\\('src/assets/uae-flag.gif'\\);console.log\\('width',b.readUInt16LE\\(6\\),'height',b.readUInt16LE\\(8\\)\\);\")",
+      "Bash(npm install *)"
+    ]
+  }
+}
